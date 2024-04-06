@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inch to Meter Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Inch to Meter Converter</h1>
+    <form id="converterForm">
+      <label for="inchesInput">Number of inches:</label>
+      <input type="number" id="inchesInput" name="inches" required placeholder="Enter number of inches here.">
+      <button type="button" onclick="convert()">Calculate</button>
+      <br>
+      <label for="result">Result:</label>
+      <span id="result">---</span> meters
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
